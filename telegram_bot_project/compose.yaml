@@ -1,0 +1,5 @@
+services:
+  bot:
+    container_name: bot
+    image: "cr.yandex/crpchj4a41gqjhmq274v/telebot:v1"
+    restart: always
